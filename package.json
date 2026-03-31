@@ -1,0 +1,19 @@
+{
+  "name": "scholar-profile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
+    "lint:html": "htmlhint frontend/index.html frontend/login.html",
+    "lint:css": "stylelint \"frontend/css/**/*.css\"",
+    "lint:js": "eslint \"frontend/assets/js/**/*.js\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^17.0.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
