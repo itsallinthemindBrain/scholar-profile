@@ -11,7 +11,7 @@ param projectName string = 'scholar-profile'
 param environment string = 'prod'
 
 @description('Azure region for all resources. Southeast Asia (Singapore) is closest to the Philippines.')
-param location string = 'southeastasia'
+param location string = 'eastasia'
 
 @description('Full URL of the GitHub repository (e.g. https://github.com/your-username/your-repo).')
 param repositoryUrl string = 'https://github.com/itsallinthemindBrain/scholar-profile'
