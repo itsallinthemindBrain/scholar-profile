@@ -14,7 +14,7 @@ using './main.bicep'
 param projectName   = 'scholar-profile'
 param environment   = 'prod'
 param location      = 'southeastasia'
-param repositoryUrl = 'https://github.com/YOUR-USERNAME/YOUR-REPO'
+param repositoryUrl = 'https://github.com/itsallinthemindBrain/scholar-profile'
 param branch        = 'main'
 param appLocation   = 'frontend'
 
