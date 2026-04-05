@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
     "lint:html": "htmlhint frontend/index.html frontend/login.html",
     "lint:css": "stylelint \"frontend/css/**/*.css\"",
@@ -10,11 +12,14 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
+    "@vitest/coverage-v8": "^4.1.2",
     "eslint": "^9.0.0",
     "globals": "^15.0.0",
     "htmlhint": "^1.1.4",
+    "jsdom": "^29.0.1",
     "prettier": "^3.8.1",
     "stylelint": "^17.0.0",
-    "stylelint-config-standard": "^40.0.0"
+    "stylelint-config-standard": "^40.0.0",
+    "vitest": "^4.1.2"
   }
 }
